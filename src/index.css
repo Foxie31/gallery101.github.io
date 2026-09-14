@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #141312;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2B28;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #44403C;
+}

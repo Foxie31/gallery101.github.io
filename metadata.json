@@ -1,0 +1,6 @@
+{
+  "name": "Local Photo Gallery & Archive",
+  "description": "A curatorial gallery application for storing, organizing, and presenting personal photo collections in local storage with color palettes, contact sheets, and archival framing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
